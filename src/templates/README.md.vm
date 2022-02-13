@@ -1,0 +1,17 @@
+# ${description}
+
+[Webpack之SplitChunks插件用法详解](https://zhuanlan.zhihu.com/p/152097785?from_voters_page=true)
+
+[unpkgsearch](https://www.unpkgsearch.com/)
+
+## unpkg.com 前端源 太卡 ，试试国内cdn 吧
+
+```
+开发是用到了前端框架（bootstrap，vue） cdn 导致网页速度加载过慢
+
+unpkg.com
+
+查询最终发下了一个国内的cdn 镜像，惊喜！！！！！！！！
+
+把 unpkg.com 替换成unpkg.zhimg.com
+```
