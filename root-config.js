@@ -8,3 +8,7 @@ module.exports = {
   destinationPath: resolve('hello-world'),
 }
 
+if (require.main === module) {
+  const { spawn, exec } = require('child_process')
+  spawn('node', [path.resolve(__dirname, './src/main.js')], { cwd: __dirname, stdio: 'inherit' })
+}
